@@ -1,0 +1,75 @@
+
+
+NET "segOut16[6]" LOC = P3;
+NET "segOut16[5]" LOC = P4;
+NET "segOut16[4]" LOC = P5;
+NET "segOut16[3]" LOC = P6;
+NET "segOut16[2]" LOC = P7;
+NET "segOut16[1]" LOC = P8;
+NET "segOut16[0]" LOC = P10;
+NET "segOut1[6]" LOC = P11;
+NET "segOut1[5]" LOC = P12;
+NET "segOut1[4]" LOC = P13;
+NET "segOut1[3]" LOC = P15;
+NET "segOut1[2]" LOC = P16;
+NET "segOut1[1]" LOC = P18;
+NET "segOut1[0]" LOC = P19;
+NET "segPc16[6]" LOC = P55;
+NET "segPc16[5]" LOC = P58;
+NET "segPc16[4]" LOC = P59;
+NET "segPc16[3]" LOC = P60;
+NET "segPc16[2]" LOC = P62;
+NET "segPc16[1]" LOC = P63;
+NET "segPc16[0]" LOC = P64;
+NET "segPc1[6]" LOC = P68;
+NET "segPc1[5]" LOC = P69;
+NET "segPc1[4]" LOC = P70;
+NET "segPc1[3]" LOC = P71;
+NET "segPc1[2]" LOC = P72;
+NET "segPc1[1]" LOC = P75;
+NET "segPc1[0]" LOC = P76;
+NET "segOpcode[6]" LOC = P77;
+NET "segOpcode[5]" LOC = P78;
+NET "segOpcode[4]" LOC = P79;
+NET "segOpcode[3]" LOC = P82;
+NET "segOpcode[2]" LOC = P83;
+NET "segOpcode[1]" LOC = P84;
+NET "segOpcode[0]" LOC = P85;
+NET "CLK_osc" LOC = P57;
+NET "RST" LOC = P54;
+
+
+NET "HALT" LOC = P46;
+
+
+NET "negLED" LOC = P87;
+
+# PlanAhead Generated IO constraints 
+
+NET "inst[7]" IOSTANDARD = LVCMOS25;
+NET "inst[6]" IOSTANDARD = LVCMOS25;
+NET "inst[5]" IOSTANDARD = LVCMOS25;
+NET "inst[4]" IOSTANDARD = LVCMOS25;
+NET "inst[3]" IOSTANDARD = LVCMOS25;
+NET "inst[2]" IOSTANDARD = LVCMOS25;
+NET "inst[1]" IOSTANDARD = LVCMOS25;
+NET "inst[0]" IOSTANDARD = LVCMOS25;
+
+# PlanAhead Generated physical constraints 
+
+NET "inst[7]" LOC = P130;
+NET "inst[6]" LOC = P129;
+NET "inst[5]" LOC = P127;
+NET "inst[4]" LOC = P126;
+NET "inst[3]" LOC = P125;
+NET "inst[2]" LOC = P124;
+NET "inst[1]" LOC = P121;
+NET "inst[0]" LOC = P120;
+NET "readAddr[7]" LOC = P105;
+NET "readAddr[6]" LOC = P104;
+NET "readAddr[5]" LOC = P103;
+NET "readAddr[4]" LOC = P102;
+NET "readAddr[3]" LOC = P101;
+NET "readAddr[2]" LOC = P99;
+NET "readAddr[1]" LOC = P98;
+NET "readAddr[0]" LOC = P96;
